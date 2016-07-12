@@ -1,0 +1,1197 @@
+Uninstalling old version...
+Running lib/main.dart on SM G900T...
+--------- beginning of main
+W/System.err: java.io.FileNotFoundException: /sys/class/camera/rear/rear_sensor_standby: open failed: ENOENT (No such file or directory)
+W/System.err: 	at libcore.io.IoBridge.open(IoBridge.java:456)
+W/System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:87)
+W/System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:72)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService.sysfsWrite(SmartFaceService.java:1150)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService.access$1800(SmartFaceService.java:95)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService$1.onReceive(SmartFaceService.java:474)
+W/System.err: 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:972)
+W/System.err: 	at android.os.Handler.handleCallback(Handler.java:739)
+W/System.err: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err: 	at android.os.Looper.loop(Looper.java:145)
+W/System.err: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err: 	at libcore.io.Posix.open(Native Method)
+W/System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+W/System.err: 	at libcore.io.IoBridge.open(IoBridge.java:442)
+W/System.err: 	... 10 more
+W/System.err: android.content.pm.PackageManager$NameNotFoundException: com.sec.android.app.ma.recorder
+W/System.err: 	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:334)
+W/System.err: 	at com.samsung.groupcast.application.App.preLoadGroupCamcoderCheck(App.java:339)
+W/System.err: 	at com.samsung.groupcast.application.App.onCreate(App.java:146)
+W/System.err: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1021)
+W/System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5935)
+W/System.err: 	at android.app.ActivityThread.access$1700(ActivityThread.java:198)
+W/System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1737)
+W/System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err: 	at android.os.Looper.loop(Looper.java:145)
+W/System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6840)
+W/System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+W/System.err: 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1404)
+W/System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1199)
+W/System.err: android.content.pm.PackageManager$NameNotFoundException: com.sec.android.app.ma.recorder
+W/System.err: 	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:334)
+W/System.err: 	at com.samsung.groupcast.application.App.preLoadGroupCamcoderCheck(App.java:339)
+W/System.err: 	at com.samsung.groupcast.application.App.onCreate(App.java:146)
+W/System.err: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1021)
+W/System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5935)
+W/System.err: 	at android.app.ActivityThread.access$1700(ActivityThread.java:198)
+W/System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1737)
+W/System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err: 	at android.os.Looper.loop(Looper.java:145)
+W/System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6840)
+W/System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+W/System.err: 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1404)
+W/System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1199)
+W/System.err: android.content.pm.PackageManager$NameNotFoundException: com.sec.android.app.ma.recorder
+W/System.err: 	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:334)
+W/System.err: 	at com.samsung.groupcast.application.App.preLoadGroupCamcoderCheck(App.java:339)
+W/System.err: 	at com.samsung.groupcast.application.App.onCreate(App.java:146)
+W/System.err: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1021)
+W/System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5935)
+W/System.err: 	at android.app.ActivityThread.access$1700(ActivityThread.java:198)
+W/System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1737)
+W/System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err: 	at android.os.Looper.loop(Looper.java:145)
+W/System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6840)
+W/System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+W/System.err: 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1404)
+W/System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1199)
+Observatory listening on http://127.0.0.1:41661
+Diagnostic server listening on http://127.0.0.1:47966
+W/System.err: android.content.pm.PackageManager$NameNotFoundException: com.sec.android.app.ma.recorder
+W/System.err: 	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:334)
+W/System.err: 	at com.samsung.groupcast.application.App.preLoadGroupCamcoderCheck(App.java:339)
+W/System.err: 	at com.samsung.groupcast.application.App.onCreate(App.java:146)
+W/System.err: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1021)
+W/System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5935)
+W/System.err: 	at android.app.ActivityThread.access$1700(ActivityThread.java:198)
+W/System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1737)
+W/System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err: 	at android.os.Looper.loop(Looper.java:145)
+W/System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6840)
+W/System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+W/System.err: 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1404)
+W/System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1199)
+W/System.err: java.io.FileNotFoundException: /sys/class/camera/rear/rear_sensor_standby: open failed: ENOENT (No such file or directory)
+W/System.err: 	at libcore.io.IoBridge.open(IoBridge.java:456)
+W/System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:87)
+W/System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:72)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService.sysfsWrite(SmartFaceService.java:1150)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService.access$1800(SmartFaceService.java:95)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService$1.onReceive(SmartFaceService.java:468)
+W/System.err: 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:972)
+W/System.err: 	at android.os.Handler.handleCallback(Handler.java:739)
+W/System.err: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err: 	at android.os.Looper.loop(Looper.java:145)
+W/System.err: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err: 	at libcore.io.Posix.open(Native Method)
+W/System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+W/System.err: 	at libcore.io.IoBridge.open(IoBridge.java:442)
+W/System.err: 	... 10 more
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: mDVFSHelper.release()
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 430, PST = 458, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/System.err: org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'xmpp.qoo-app.com:5222' failed because java.net.SocketException: java.io.IOException: fcntl failed: EBADF (Bad file number)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.AbstractXMPPConnection.connect(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d.c(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d$1.run(Unknown Source)
+W/System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:279)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:152)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err: 	at java.lang.Thread.run(Thread.java:818)
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 350, PST = 365, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 350, PST = 358, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 350, PST = 354, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 350, PST = 353, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 350, PST = 351, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 350, PST = 351, CUR = 300
+W/System.err: org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'xmpp.qoo-app.com:5222' failed because java.net.SocketException: java.io.IOException: fcntl failed: EBADF (Bad file number)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.AbstractXMPPConnection.connect(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d.c(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d$1.run(Unknown Source)
+W/System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:279)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:152)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err: 	at java.lang.Thread.run(Thread.java:818)
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 340, PST = 350, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/System.err: java.io.FileNotFoundException: /sys/class/camera/rear/rear_sensor_standby: open failed: ENOENT (No such file or directory)
+W/System.err: 	at libcore.io.IoBridge.open(IoBridge.java:456)
+W/System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:87)
+W/System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:72)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService.sysfsWrite(SmartFaceService.java:1150)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService.access$1800(SmartFaceService.java:95)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService$1.onReceive(SmartFaceService.java:474)
+W/System.err: 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:972)
+W/System.err: 	at android.os.Handler.handleCallback(Handler.java:739)
+W/System.err: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err: 	at android.os.Looper.loop(Looper.java:145)
+W/System.err: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err: 	at libcore.io.Posix.open(Native Method)
+W/System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+W/System.err: 	at libcore.io.IoBridge.open(IoBridge.java:442)
+W/System.err: 	... 10 more
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: Scheduling restart of crashed service com.duomi.android/com.duomi.dms.core.DMCoreService in 1000ms
+W/ActivityManager: Scheduling restart of crashed service com.duomi.android/com.duomi.apps.lockScreen.LockScreenService in 11000ms
+W/ActivityManager: Scheduling restart of crashed service jp.naver.line.android/.obs.net.OBSApiService in 20914ms
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 340, PST = 344, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 340, PST = 344, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 340, PST = 344, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 330, PST = 342, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 330, PST = 340, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 330, PST = 338, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 330, PST = 336, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 330, PST = 335, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/System.err: org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'xmpp.qoo-app.com:5222' failed because java.net.SocketException: java.io.IOException: fcntl failed: EBADF (Bad file number)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.AbstractXMPPConnection.connect(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d.c(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d$1.run(Unknown Source)
+W/System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:279)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:152)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err: 	at java.lang.Thread.run(Thread.java:818)
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 330, PST = 330, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 330, PST = 330, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 330, PST = 330, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 330, PST = 330, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 329, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 327, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 326, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 325, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 324, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 322, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 321, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 321, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 321, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 321, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 321, CUR = 300
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: Scheduling restart of crashed service com.qualcomm.svi/.SVIService in 1000ms
+W/ActivityManager: Scheduling restart of crashed service com.qualcomm.atfwd/.AtFwdService in 10981ms
+W/ActivityManager: Scheduling restart of crashed service com.tencent.mm/.plugin.exdevice.service.ExDeviceService in 20959ms
+W/ActivityManager: Scheduling restart of crashed service com.android.exchange/.SmsRelayService in 30940ms
+W/ActivityManager: Scheduling restart of crashed service com.sec.bcservice/.BroadcastService in 40920ms
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/System.err: org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'xmpp.qoo-app.com:5222' failed because java.net.SocketException: java.io.IOException: fcntl failed: EBADF (Bad file number)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.AbstractXMPPConnection.connect(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d.c(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d$1.run(Unknown Source)
+W/System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:279)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:152)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err: 	at java.lang.Thread.run(Thread.java:818)
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 320, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 319, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 318, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 318, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 317, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 316, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 315, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 315, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 314, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 313, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 312, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 312, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 312, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/System.err: org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'xmpp.qoo-app.com:5222' failed because java.net.SocketException: java.io.IOException: fcntl failed: EBADF (Bad file number)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.AbstractXMPPConnection.connect(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d.c(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d$1.run(Unknown Source)
+W/System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:279)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:152)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err: 	at java.lang.Thread.run(Thread.java:818)
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 311, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 311, CUR = 300
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 320, PST = 312, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 312, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 311, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 311, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 311, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 311, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 311, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 311, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 311, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 311, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 310, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 310, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 310, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 310, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 310, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 309, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 308, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 307, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 305, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 304, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 303, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 310, PST = 303, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 302, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 301, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 301, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/System.err: org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'xmpp.qoo-app.com:5222' failed because java.net.SocketException: java.io.IOException: fcntl failed: EBADF (Bad file number)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.AbstractXMPPConnection.connect(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d.c(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d$1.run(Unknown Source)
+W/System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:279)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:152)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err: 	at java.lang.Thread.run(Thread.java:818)
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 301, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 301, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 301, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 301, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 301, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 301, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/System.err: org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'xmpp.qoo-app.com:5222' failed because java.net.SocketException: java.io.IOException: fcntl failed: EBADF (Bad file number)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.AbstractXMPPConnection.connect(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d.c(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d$1.run(Unknown Source)
+W/System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:279)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:152)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err: 	at java.lang.Thread.run(Thread.java:818)
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 300, PST = 300, CUR = 300
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: mDVFSHelper.acquire()
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: Duplicate finish request for ActivityRecord{194ee1e1 u0 com.yourcompany.examples/org.domokit.sky.shell.SkyActivity t774 f}
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: Scheduling restart of crashed service com.sec.android.daemonapp/.ap.accuweather.WeatherClockService in 1000ms
+W/ActivityManager: Scheduling restart of crashed service com.sec.android.service.sm/.service.SecurityManagerService in 10989ms
+W/ActivityManager: Scheduling restart of crashed service com.android.email/.service.EmailDebugService in 20964ms
+W/ActivityManager: Scheduling restart of crashed service com.sec.android.pagebuddynotisvc/.PageBuddyNotiSvc in 30919ms
+W/ActivityManager: Scheduling restart of crashed service com.qooapp.qoohelper/.download.DownloadService in 40903ms
+W/ActivityManager: Scheduling restart of crashed service com.qooapp.qoohelper/.im.XmppCoreService in 50903ms
+W/ActivityManager: Scheduling restart of crashed service com.samsung.hs20settings/.WifiHs20UtilityService in 60885ms
+W/ActivityManager: Scheduling restart of crashed service com.lookout/.services.NotificationService in 70849ms
+D/elm:15202: ELMEngine.ELMEngine( context ).
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+D/elm:15202: MDMBridge.setEnterpriseBridge()
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+D/[0]UMC:CoreReceiver: Intent : android.intent.action.PACKAGE_REMOVED
+D/[0]UMC:CoreReceiver: PackageName : com.yourcompany.examples
+D/[0]UMC:CoreReceiver: Intent Replacing : false
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10205 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10205 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: mDVFSHelper.release()
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/System.err: java.io.FileNotFoundException: /sys/class/camera/rear/rear_sensor_standby: open failed: ENOENT (No such file or directory)
+W/System.err: 	at libcore.io.IoBridge.open(IoBridge.java:456)
+W/System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:87)
+W/System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:72)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService.sysfsWrite(SmartFaceService.java:1150)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService.access$1800(SmartFaceService.java:95)
+W/System.err: 	at com.samsung.android.smartface.SmartFaceService$1.onReceive(SmartFaceService.java:468)
+W/System.err: 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:972)
+W/System.err: 	at android.os.Handler.handleCallback(Handler.java:739)
+W/System.err: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err: 	at android.os.Looper.loop(Looper.java:145)
+W/System.err: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err: 	at libcore.io.Posix.open(Native Method)
+W/System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+W/System.err: 	at libcore.io.IoBridge.open(IoBridge.java:442)
+W/System.err: 	... 10 more
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: Scheduling restart of crashed service com.sec.android.app.shealth/com.samsung.android.service.health.HealthService in 65529ms
+D/Mms:transaction: [TransactionService] !isTransientFailure(failureType) : true
+D/Mms:transaction: [SIM0][TransactionService] crossSimSlot = -1, cursor.isLast() = true
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/System.err: org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'xmpp.qoo-app.com:5222' failed because java.net.SocketException: java.io.IOException: fcntl failed: EBADF (Bad file number)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.AbstractXMPPConnection.connect(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d.c(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d$1.run(Unknown Source)
+W/System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:279)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:152)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err: 	at java.lang.Thread.run(Thread.java:818)
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/System.err: android.content.pm.PackageManager$NameNotFoundException: com.sec.android.app.ma.recorder
+W/System.err: 	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:334)
+W/System.err: 	at com.samsung.groupcast.application.App.preLoadGroupCamcoderCheck(App.java:339)
+W/System.err: 	at com.samsung.groupcast.application.App.onCreate(App.java:146)
+W/System.err: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1021)
+W/System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5935)
+W/System.err: 	at android.app.ActivityThread.access$1700(ActivityThread.java:198)
+W/System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1737)
+W/System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err: 	at android.os.Looper.loop(Looper.java:145)
+W/System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6840)
+W/System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+W/System.err: 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1404)
+W/System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1199)
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: ProcessRecord{3dbcc49a 22192:com.google.process.gapps/u0a14} is already killed
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: mDVFSHelper.acquire()
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: mDVFSHelper.release()
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+I/MagazineService::MagazineService: [onHandleIntent] ACTION_PACKAGE_INSTALLED
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+D/SSRM:n  : SIOP:: AP = 440, PST = 326, CUR = 300
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10206 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+D/SSRM:n  : SIOP:: AP = 420, PST = 338, CUR = 300
+W/System.err: org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'xmpp.qoo-app.com:5222' failed because java.net.SocketException: java.io.IOException: fcntl failed: EBADF (Bad file number)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.AbstractXMPPConnection.connect(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d.c(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d$1.run(Unknown Source)
+W/System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:279)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:152)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err: 	at java.lang.Thread.run(Thread.java:818)
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/System.err: org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'xmpp.qoo-app.com:5222' failed because java.net.SocketException: java.io.IOException: fcntl failed: EBADF (Bad file number)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(Unknown Source)
+W/System.err: 	at org.jivesoftware.smack.AbstractXMPPConnection.connect(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d.c(Unknown Source)
+W/System.err: 	at com.qooapp.qoohelper.im.d$1.run(Unknown Source)
+W/System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:279)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:152)
+W/System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err: 	at java.lang.Thread.run(Thread.java:818)
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+W/ActivityManager: getTasks: caller 10208 does not hold GET_TASKS; limiting output
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: mDVFSHelper.acquire()
+W/ActivityManager: mDVFSHelper.release()
+W/ActivityManager: mDVFSHelper.acquire()
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+W/ActivityManager: mDVFSHelper.release()
+W/ActivityManager: mDVFSHelper.acquire()
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0
+E/ActivityManager: checkUser: useridlist=null, currentuser=0

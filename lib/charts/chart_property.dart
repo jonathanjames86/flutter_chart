@@ -1,0 +1,51 @@
+part of charted.flutter.charts;
+
+// TODO(midoringo): handle specific event (right now we get the same
+//     notification for data and config update).
+class ChartProperty extends Listenable {
+
+  /// Data used by the chart. Chart isn't updated till the next call to
+  /// draw function if [autoUpdate] is set to false.
+  ///
+  /// Setting new value to [data] will update chart if [autoUpdate] is set.
+  ChartData data;
+
+  /// Configuration for this chart.  [ChartArea] subscribes to changes on
+  /// [config] and calls draw upon any changes.
+  ///
+  /// Refer to [ChartConfig] for further documentation about which changes
+  /// are added to the stream, which in turn trigger an update on the chart.
+  ChartConfig config;
+
+  /// Theme for this chart. Any changes to [theme] are not applied to the chart
+  /// until it is redrawn. Changes can be forced by calling [draw] function.
+  ChartTheme theme;
+
+  /// When set to true, [ChartArea] subscribes to changes on data and updates
+  /// the chart when [data] or [config] changes. Defaults to false.
+  final bool autoUpdate;
+
+  /// When true, [ChartArea] and renderers that support coloring by row,
+  /// use row indices and values to color the chart. Defaults to false.
+  final bool useRowColoring;
+
+  final bool useTwoDimensionAxes;
+
+  ChartProperty(
+      this.data,
+      this.config,
+      {this.autoUpdate: false,
+      this.useTwoDimensionAxes: false,
+      this.useRowColoring: false,
+      this.theme}) {
+        if (theme == null) {
+          theme = new QuantumChartTheme();
+        }
+        // data.addListener(notifyPropertyChange);
+        // config.addListener(notifyPropertyChange);
+  }
+
+  void notifyPropertyChange() {
+    notifyListeners();
+  }
+}

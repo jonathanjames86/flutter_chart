@@ -1,0 +1,7 @@
+name: examples
+description: A new flutter project.
+dependencies:
+  flutter:
+    path: ../../../flutter/packages/flutter
+  charted_flutter:
+    path: ../../../flutter_chart
