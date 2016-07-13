@@ -1,8 +1,15 @@
+//
+// Copyright 2016 Google Inc. All rights reserved.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file or at
+// https://developers.google.com/open-source/licenses/bsd
+//
+
 part of charted.flutter.charts;
 
-// TODO(midoringo): handle specific event (right now we get the same
-//     notification for data and config update).
-class ChartProperty extends Listenable {
+// Contains the all the settings including data and config for the chart.
+class ChartProperty {
 
   /// Data used by the chart. Chart isn't updated till the next call to
   /// draw function if [autoUpdate] is set to false.
@@ -43,9 +50,5 @@ class ChartProperty extends Listenable {
         }
         // data.addListener(notifyPropertyChange);
         // config.addListener(notifyPropertyChange);
-  }
-
-  void notifyPropertyChange() {
-    notifyListeners();
   }
 }
