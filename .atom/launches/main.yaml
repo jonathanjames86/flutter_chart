@@ -1,9 +1,0 @@
-# Flutter launch configuration for lib/examples/lib/main.dart.
-type: flutter
-path: lib/examples/lib/main.dart
-
-flutter:
-  # The starting route for the app.
-  route:
-  # Additional args for the flutter run command.
-  args:
